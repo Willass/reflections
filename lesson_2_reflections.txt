@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?:
+A new git repository is created. It will then be unseen and the metadata of files will accrue in it which will be useful for file comparing in the future.

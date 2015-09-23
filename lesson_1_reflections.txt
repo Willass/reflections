@@ -1,0 +1,12 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?:
+Viewing through a file comparer makes spotting a difference a speedy process instead of a cumbrous manual process.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?:
+It appeases the difficulty in spotting the minimal contrast between two or more files thus time will automatically accrue to you. 
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?:
+Creating commits manually makes each version unambiguous becasuse it is set apart from the irraationality of an autonomous version control function where each version that is saved isn't justified and thus illogical to navigate through. Manually making commits also accrues clarity amid the programmer and his code holistically because he understands each commitment saved.
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?:
+A programmer typically deals with files of code that interweaves with one another. One change in a single file might translate a change in another file. Such intricacy has to be handled by version control systems like git that has a developer's proprietary conundrum in check.
+How can you use the commands git log and git diff to view the history of files?:
+git log displays the logical changes made within a repository, and git diff allows you to access ONLY the changes, with the ids git log provides which in turns takes off the inertia of searching through an entire file and make navigating additions, removal and unchanged text only within a concise environment. 
+How might using version control make you more confident to make changes that could break something?:
+git checkout "commit id" makes it easy to view a hostorical version of a file before a bug has been created so that spotting a bug can be navigated to the exact commits that introduced it by moving upwards towards the latest commit.
