@@ -1,2 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?:
 A new git repository is created. It will then be unseen and the metadata of files will accrue in it which will be useful for file comparing in the future.
+How is the staging area different from the working directory and the repository? What value do you think it offers?:
+The staging area holds files that are related together to be later classified as a single commit - all to achieve a logical, concise commits.
+How can you use the staging area to make sure you have one commit per logical change?:
+The staging area is a middle ground between the Working directory and the Repository. Before commiting, multiple files can be added to the staging area if they are deemed interrelated becoming a bundle as one commit message. It also allows comparison between an edited file in the working directory to be comapared to the latest commit with the command git diff --staged to double check if the files in the staging area are really what i want to commit.
